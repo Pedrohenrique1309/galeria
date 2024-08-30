@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(0, 0, 0, 0.905);
+}
+h1{
+    padding: 16px;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+#classe_imagem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 50%;
+    justify-content: space-between;
+    margin: 0 auto auto;
+    border: 1px ;
+    padding: 50px;
+}
+
+.imagem{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border: 10px solid ;
+    border-radius: 10px ;
+    border-color:beige;
+
+}
